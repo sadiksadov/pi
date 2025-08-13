@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 1440px;
+}
+.header{
+    width: 1440px;
+    background-color: #F3D7B7;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav ul li{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-content_text h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.header-content_text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 47px 0;
+}
+.btn{
+    width: 193px;
+    border-radius: 100px;
+    height: 51px;
+    background-color: #0A775F;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-style: Bold;
+}
+.header-content_img{
+    position: relative;
+}
+.krug{
+    position: absolute;
+    z-index: 1;
+    left: -45px;
+    top: -35px;
+    animation-name: krugAnim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.kvadrat{
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
+@keyframes krugAnim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.section{
+    height: 1798px;
+    background: rgb(250, 244, 244);
+}
+.section h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 108px;
+}
+.kofechala{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.daddy-coffee{
+    width: 1117.0944824218px;
+    height: 1500;
+    opacity: 1;
+    top: 1009px;
+    left: 159.45px;
+    margin: 0 auto;
+}
+.planalto{
+    width: 451.25px;
+    height: 375px;
+    opacity: 1;
+    top: 2134px;
+    left: 825.3px;
+}
+.daddy-coffee h2{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.daddy-coffee p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.footer{
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3D7B7;
+}
+.txtdiv ul{
+    display: flex;
+    gap: 40px;
+}
